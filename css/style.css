@@ -6,5 +6,41 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-  color: #434455;
+  color: var(--primary-text-color);
+}
+
+.header-logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--title-text-color);
+
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-web {
+  color: #4d5ae5;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+.header-mailto {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.header-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
