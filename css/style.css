@@ -11,6 +11,8 @@
   --footer-logo-text: #4d5ae5;
   --background-footer-color: #2e2f42;
   --footer-text-color: #e7e9fc;
+  --backgroud-filter-btn: #f4f4fd;
+  --filter-btn-color: #4d5ae5;
 }
 
 body {
@@ -198,4 +200,20 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
+}
+/* Portfolio */
+.filter-title {
+  background-color: var(--backgroud-filter-btn);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.filter-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--filter-btn-color);
 }
